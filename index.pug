@@ -1,0 +1,115 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    title Computer
+    link(rel='stylesheet prefetch', href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css')
+    link(rel='stylesheet prefetch', href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css')
+    link(rel='stylesheet', href='css/style.css')
+  body
+    // nav-top 透明用
+    nav.navbar.navbar-default.navbar-fixed-top.navbar-top
+      .container
+        .navbar-header
+          a#tohead.navbar-brand(href='#head') COMPUTER
+        .navbar-collapse.collapse
+          .nav.navbar-nav.navbar-right
+            li
+              a#toask(href='#ask') 引言 INTRO
+            li
+              a#tostory(href='#story') 簡介 ABOUT
+            li
+              a#toabout(href='#about') 故事 STORY
+            li
+              a#tofuture(href='#future') 未來 FUTURE
+    header#head.jumbotron
+      .container
+        h1(data-0='transform: translateX(0px);', data-200='transform: translateX(-300px);') 電腦：創造的無限可能
+        br
+        h3(data-0='transform: translateX(0px);', data-200='transform: translateX(-300px);') 讓人類飛翔的另一個宇宙
+    section#ask
+      .container
+        .row
+          .col-sm-5
+            img(data-0='transform: translateX(-120px);', data-400='transform: translateX(0px);', src='http://www.freeiconspng.com/uploads/computer-icon-downloads-19.jpg', alt='')
+          .col-sm-7
+            h2(data-0='opacity:0;', data-200='opacity:1;') 如果今天沒有了電腦，會變成什麼樣子呢？
+    section#story
+      .container
+        .row
+          h1(data-bottom-top='transform: translateY(-80px);opacity:0;', data-center='transform: translateY(0px);opacity:1;') 早期的數位電腦
+          hr
+          .col-sm-4
+            .img-box
+              img(data-bottom-top='transform: translateY(-80px);opacity:0;', data-center='transform: translateY(0px);opacity:1;', src='https://upload.wikimedia.org/wikipedia/commons/6/6f/Zuse_Z1.jpg', alt='')
+            h3(data-bottom-top='transform: translateY(-30px);opacity:0;', data-center-bottom='transform: translateY(0px);opacity:1;') 楚澤Z系列
+            p(data-bottom-top='transform: translateY(-30px);opacity:0;', data-center-bottom='transform: translateY(0px);opacity:1;')
+              | 1936年，在德國獨力研發的楚澤，開始打造以記憶能力和可程式化為特色的Z系列計算器。1938年，楚澤在柏林父親的公寓中完成Z1電腦，完全機械製造，使用二進位制，但是由於部分零件精確度的問題，運作並不穩定。
+              br
+              | 楚澤後續機種Z3電腦完成於1941年，使用打孔膠捲作為輸入程式的媒介，以電話型繼電器為基礎，運作順利，因此成為首部可程式控制的功能性電腦。Z3電腦在許多方面都跟現代電腦相當類似，比如說使用了浮點數，是多項先進功能中的先鋒。楚澤揚棄不好用的十進位制（巴貝奇早期設計皆使用十進位制）取簡單的二進位制，以當時的科技工藝來說，此舉使得他的機種易於製造，較為可靠，也有人認為這是楚澤比巴貝奇成功的主要原因之一。Z3電腦雖然被人忽略，不過已在1990年代證實合乎通用電腦定義（忽略其物理儲存容量限制）。
+          .col-sm-4
+            .img-box
+              img(data-bottom-top='transform: translateY(-80px);opacity:0;', data-center='transform: translateY(0px);opacity:1;', src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Colossus.jpg/1920px-Colossus.jpg', alt='')
+            h3(data-bottom-top='transform: translateY(-30px);opacity:0;', data-center='transform: translateY(0px);opacity:1;') 巨像電腦
+            p(data-bottom-top='transform: translateY(-30px);opacity:0;', data-center='transform: translateY(0px);opacity:1;')
+              | 二次大戰期間，英國在布萊切利園成功破解了部分德國軍事通訊密碼，在電機設計的炸彈機協助下，德軍的恩尼格瑪密碼機大受威脅，炸彈機是艾倫·圖靈與高登·威奇曼仿造1938年的波蘭解密機炸彈機所設計，運用一連串的電子邏輯演繹裝置找出可能是恩尼格瑪密碼機的密碼。
+              br
+              | 德國還發展出一系列與恩尼格瑪密碼機全然不同的電傳打字機加密系統，像是用於高階軍事通訊的勞倫茲密碼機，英軍代號為「金槍魚」。1941年，勞倫茲密碼機的密碼首度遭到攔截，麥斯·紐曼教授及其同僚作為破解「金槍魚」團隊的一份子，負責詳細指揮巨像電腦的操作方法。巨像電腦「馬克一號」機是1943年的3月到12月之間，由湯米·佛勞斯其同僚建造於倫敦多利士山的郵政研究局。
+          .col-sm-4
+            .img-box
+              img(data-bottom-top='transform: translateY(-80px);opacity:0;', data-center='transform: translateY(0px);opacity:1;', src='http://oldcomputers.net/pics/appleiii.jpg', alt='')
+            h3(data-bottom-top='transform: translateY(-30px);opacity:0;', data-center='transform: translateY(0px);opacity:1;') Apple III
+            p(data-bottom-top='transform: translateY(-30px);opacity:0;', data-center='transform: translateY(0px);opacity:1;')
+              | 在1980年代，當小型企業還在使用Apple II時，蘋果感到它需要一個更新、更先進的型號以參與企業用電腦市場。Apple III的設計師被迫遵循賈伯斯的極高和有時不切實際的要求，據說賈伯斯覺得散熱扇「不雅致」因而被省略了，結果導致電腦容易過熱，這迫使最早期的型號被回收。另外，Apple III售價高昂，雖然1983年推出了改善後的升級型，並隨之進行了降價促銷，但基本上仍是無法挽回Apple III在市場中的劣勢，這主要是因為1981年IBM推出的IBM PC及其相容機席捲了個人電腦市場。Apple III總共只製造了9萬部。
+    section#about
+      .container-fluid
+        .row
+          .col-sm-5.chip(data-bottom-top='background-size: 180%; background-position: 0% 0%', data-center='background-size: 130%; background-position: 50% 50%')
+          .col-sm-7
+            h2 電腦對現今的影響
+            hr
+            .col-sm-12
+              .col-sm-4(data-bottom-top='transform: scale(1.5);opacity:0;', data-center='transform: scale(1);opacity:1;')
+                i.fa.fa-comments
+                h4 更方便的訊息傳遞
+              .col-sm-4(data-bottom-top='transform: scale(1.5);opacity:0;', data-center='transform: scale(1);opacity:1;')
+                i.fa.fa-shopping-cart
+                h4 改變消費習慣
+              .col-sm-4(data-bottom-top='transform: scale(1.5);opacity:0;', data-center='transform: scale(1);opacity:1;')
+                i.fa.fa-paper-plane-o
+                h4 無限的可能性
+              .col-sm-12
+                p
+                  | 再現帶社會當中，網際網路已是成為資訊社會當中的必要條件，自網際網路蓬勃發展以來，改變了人們的許多日常生活方式茹：通訊、交友、購物等將分別說明如下：(1) 通訊：在早期人類社會哩，人與人之間的溝通與互動都是透過面對面的方式，自電話與手機問世後，人們開始使用電話與手機，直至網際網路興起後，不但打破了傳統的通訊方式，同時更可以跨越國界與親朋好友進行互動，不但能省下高額的通訊成本，同時也帶來了資訊傳遞的便利性、快速性與普及性。進行互動，故反而較容易連結彼此間的情感。
+    section#future
+      .container-fluid
+        .row
+          .col-sm-12(data-bottom-top='transform: translateX(-50px);', data-center='transform: stranslateX(0px);')
+            h1 後PC時代
+            hr
+            .col-sm-6
+              img(src='http://4827-presscdn.pagely.netdna-cdn.com/wp-content/uploads/2016/08/google_i_O_Paper_wallpaper.jpg', alt='')
+            .col-sm-6(data-bottom-top='transform: translateX(50px);', data-center='transform: stranslateX(0px);')
+              i.fa.fa-mobile
+              h3 智慧型手機
+              p
+                | 「智慧型手機」這個說法主要是針對「功能型手機」而來的，對於那些運算能力及功能比傳統功能手機更強的手機的集合性稱謂。
+                br
+                | 業內人士認為，智慧型手機能夠顯示與個人電腦所顯示出來一致的正常網頁，而且智慧型手機能顯示手機版的網頁，它具有獨立的作業系統以及良好的使用者介面，它擁有很強的應用擴展性、能方便隨意地安裝和刪除應用程式；智慧型手機擁有超大高畫質觸控螢幕，能隨時使用鍵盤來進行觸摸、手寫、進行多任務操作，並且擁有強大的多媒體、郵件、上網功能，能完全替代像MP3、MP4和PDA這樣的傳統攜帶式裝置；智慧型手機能替代個人電腦處理辦公事務和其他事務，它能隨時與網路保持連接，並且能與電腦、筆記本電腦等其他裝置同步資料。
+            .col-sm-6(data-bottom-top='transform: translateX(50px);', data-center='transform: stranslateX(0px);')
+              i.fa.fa-tablet
+              h3 平板電腦
+              p
+                | 平板電腦（英語：Tablet Computer，或簡稱Tablet）是一種小型的、方便攜帶的個人電腦，以觸控式螢幕作為基本的輸入裝置。它擁有的觸控式螢幕（也稱為數位板技術）允許使用者通過觸控筆或數位筆來進行作業而不是傳統的鍵盤和滑鼠。多數的平板電腦更支援手指操作，使用手指觸控、書寫、縮放畫面與圖片。
+    section#mail
+      .container
+        .row
+          .col-sm-12
+            h2 想知道更多電腦相關故事嗎
+            input.form-control(placeholder='E-mail')
+            button.btn.btn-default 訂閱故事
+    <!-- 引用JS -->
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js')
+    script(src='js/index.js')

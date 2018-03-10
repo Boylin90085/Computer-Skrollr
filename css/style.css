@@ -1,0 +1,93 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體; }
+  * h1, * h2, * h3, * h4, * h5, * h6, * .h1, * .h2, * .h3, * .h4, * .h5, * .h6 {
+    font-weight: bold; }
+
+header.jumbotron {
+  text-align: left;
+  background-image: url(../image/cover.jpg);
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 0px;
+  color: white;
+  padding: 250px;
+  background-attachment: fixed; }
+  header.jumbotron h1, header.jumbotron h3 {
+    border-left: 5px solid #3c78d1;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    padding-left: 5px; }
+  header.jumbotron .container {
+    text-align: center; }
+  header.jumbotron h3 {
+    opacity: 0.8; }
+
+section {
+  padding: 60px 0px;
+  overflow: hidden; }
+
+section#ask {
+  background-color: #3c78d1; }
+  section#ask img {
+    height: 250px;
+    mix-blend-mode: multiply; }
+  section#ask .col-sm-7 {
+    margin-top: 60px; }
+
+section#story img {
+  width: 130%; }
+
+section#story .img-box {
+  height: 220px;
+  overflow: hidden; }
+
+section#about {
+  padding: 0;
+  color: white;
+  background-color: #3c78d1; }
+  section#about .chip {
+    background-image: url(../image/processor.jpg);
+    height: 400px;
+    background-size: 200% auto; }
+  section#about .col-sm-7 {
+    text-align: center; }
+  section#about i {
+    font-size: 40px; }
+  section#about .col-sm-12 {
+    margin-top: 40px; }
+
+section#future i {
+  font-size: 40px; }
+
+section#future .col-sm-6 img {
+  width: 100%; }
+
+section#mail {
+  background-image: url(../image/cover.jpg);
+  color: white;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 120px; }
+  section#mail h2 {
+    border-left: 5px solid #3c78d1;
+    margin-left: 380px;
+    padding-left: 5px; }
+  section#mail input {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto; }
+  section#mail button {
+    margin-top: 10px;
+    margin-left: 520px; }
+
+nav.navbar {
+  transition: 0.5s; }
+
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top {
+  background-color: transparent; }
+  nav.navbar.navbar-default.navbar-fixed-top.navbar-top a {
+    color: white;
+    transition: 0.5s; }
+    nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
+      color: #3c78d1; }

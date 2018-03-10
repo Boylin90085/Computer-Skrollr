@@ -1,0 +1,97 @@
+$color_blue: #3c78d1
+*
+  font-family: 微軟正黑體
+  h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6
+    font-weight: bold
+
+header.jumbotron
+  text-align: left
+  background-image: url(../image/cover.jpg)
+  background-position: center center
+  background-size: cover
+  margin-bottom: 0px
+  color: white
+  padding: 250px
+  background-attachment: fixed
+  
+  h1,h3
+    border-left: 5px solid $color_blue
+    background-color: rgba(0,0,0,0.6)
+    display: inline-block
+    padding-left: 5px
+  .container
+    text-align: center
+    
+  h3
+    opacity: 0.8
+section
+  padding: 60px 0px
+  overflow: hidden
+  
+section#ask
+  background-color: $color_blue
+  img
+    height: 250px
+    mix-blend-mode: multiply
+  .col-sm-7
+    margin-top: 60px
+section#story
+  img
+    width: 130%
+  .img-box
+    height: 220px
+    overflow: hidden
+
+section#about
+  padding: 0
+  color: white
+  background-color: $color_blue
+  .chip
+    background-image: url(../image/processor.jpg)
+    height: 400px
+    background-size: 200% auto
+  .col-sm-7
+    text-align: center
+  i
+    font-size: 40px
+  .col-sm-12
+    margin-top: 40px
+    
+section#future
+  i
+    font-size: 40px
+  .col-sm-6
+    img
+      width: 100%
+    
+section#mail
+  background-image: url(../image/cover.jpg)
+  color: white
+  background-size: cover
+  background-attachment: fixed
+  padding: 120px
+  h2
+    border-left: 5px solid $color_blue
+    margin-left: 380px
+    padding-left: 5px
+
+  input
+    width: 200px
+    // background-color: transparent
+    margin-left: auto
+    margin-right: auto
+  button
+    margin-top: 10px
+    margin-left: 520px
+nav.navbar
+  transition: 0.5s
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top
+  background-color: transparent
+  a
+    color: white
+    transition: 0.5s
+    &:hover
+      color: $color_blue
+  
+
+    
